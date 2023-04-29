@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Profile Update</title>
+    <link rel="stylesheet" href="CSS/profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/profile.js"></script>
+  </head>
+  <body>
+    <h1>User Profile Update</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+
+      <label for="age">Age:</label>
+      
+      <select id="age" name="age">
+        <option value="20-30">20-30</option>
+        <option value="30-40">30-40</option>
+        <option value="40-50">40-50</option>
+      </select>
+
+      <input type="submit" value="Update">
+    </form>
+  </body>
+</html>
